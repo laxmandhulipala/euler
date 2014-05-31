@@ -13,17 +13,8 @@ def sieve(n):
     if (primes[i]):
       out += [i]
   return out
-#    if (primes[
-#    l = filter(lambda x: x % filterBy != 0, l)
-#    primes += [filterBy]
-#  return primes
-#    return sieve(l, primes + [filterBy])
-#  for i in xrange(len(l)):
-
-#p = sieve(range(3,200000,2), [])
 
 p = sieve(2000000)
-#print(p)
 
 prSum = 0
 for pr in p:
